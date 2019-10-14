@@ -8,8 +8,8 @@ T& Global(const A&... Arg) {
 
 int main() {
 
-	Global<int,int>(25);
-	int N = Global<int,int>(0);//return 25;
+	Global<int,int>(25)++;
+	int N = Global<int,int>(0);//return 26;
 
 	return 0;
 
